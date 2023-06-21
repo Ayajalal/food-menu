@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {BehaviorSubject, Subject} from "rxjs";
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'foodmenu';
+   sub1=new BehaviorSubject(1);
+   constructor() {
+   }
+
 }

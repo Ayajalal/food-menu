@@ -1,0 +1,8 @@
+<div class="container">
+<div *ngFor="let movie of movies" class="card">
+  <img [src]="'https://www.themoviedb.org/t/p/w220_and_h330_face'+movie.backdrop_path">
+
+  <p>{{movie.original_title}}</p>
+
+</div>
+</div>
